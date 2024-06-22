@@ -1,16 +1,21 @@
 # Emeji Connection Monitor
 
-A simple utility I created while in a tiff with my ISP.
+A simple utility I created to log internet connectivity issues, as my ISP is struggling to pin down why my internet speeds resemble a square wave somewhere between the switch and my twice-replaced router. 
 
-Unfortunately, they moved to a new system, and as I write this, we are diagnosing why my internet connection resembles a square wave. Not exactly fun.
+This utility monitors three states:
+1. Internet fully works.
+2. Machine is connected to the router, but not the information superhighway.
+3. Machine is not connected to the router or the information superhighway.
 
-This is an electron app. Feel free to build from source here, or find the current build below.
+The utility can export logs of these states.
+
+Since my speeds are pretty much boolean, monitoring speed over time is out of scope. Like the Sith, this monitor deals in absolutes.
 
 To build from source:
 ```bash
 # 1. Clone the repo
 git clone https://github.com/elliottmejia/Emeji-Connection-Monitor
-# 2. Install deps
+# 2. Install a few deps
 npm i
 # 3. Build
 npm build
@@ -22,7 +27,7 @@ Optionally, you can just run from source.
 npm start
 ```
 
-Untested on Linux and Windows.
+Untested on Linux and Windows. It *should* work.
 
 ## Builds
 
