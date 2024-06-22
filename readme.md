@@ -10,4 +10,4 @@ Untested on Linux and Windows.
 
 ## Builds
 
-OSX (ARM64)
+[OSX (ARM64)](https://www.dropbox.com/scl/fi/nn3dqvy23rp77qoadbxpj/Emeji-Connection-Monitor-1.0.0-arm64.dmg?rlkey=6o9ldd9lp9twuynodulhs63gb&dl=0)
