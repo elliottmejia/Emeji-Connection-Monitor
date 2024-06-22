@@ -18,7 +18,7 @@ npm build
 Optionally, you can just run from source.
 ```bash
 # ... steps 1, 2...
-# 3.
+# 3. Start server in dev mode
 npm start
 ```
 
