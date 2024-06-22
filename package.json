@@ -1,0 +1,46 @@
+{
+    "name": "emeji-connection-monitor",
+    "version": "1.0.0",
+    "description": "An app to monitor internet connection",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder"
+    },
+    "author": "Elliott Mejia",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^23.0.0",
+        "electron-builder": "^23.0.0"
+    },
+    "build": {
+        "appId": "com.emeji.emeji-connection-montitor",
+        "productName": "Emeji Connection Monitor",
+        "directories": {
+            "buildResources": "build"
+        },
+        "files": [
+            "main.js",
+            "index.html",
+            "renderer.js",
+            "preload.js",
+            "styles.css",
+            "node_modules/**/*"
+        ],
+        "mac": {
+            "icon": "build/icon.png",
+            "category": "public.app-category.utilities"
+        },
+        "win": {
+            "icon": "build/icon.ico",
+            "target": "nsis"
+        },
+        "linux": {
+            "icon": "build",
+            "target": "AppImage"
+        }
+    },
+    "dependencies": {
+        "chart.js": "^4.0.0"
+    }
+}

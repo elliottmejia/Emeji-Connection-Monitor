@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emeji Connection Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="status">
+      <h1>Checking internet connection...</h1>
+    </div>
+    <div id="chart-container">
+      <canvas id="logChart" width="800" height="400"></canvas>
+    </div>
+    <button id="exportAllLogsButton" class="export-button">
+      Export All Logs
+    </button>
+    <button id="exportLogsButton" class="export-button">
+      Export "Wi-Fi connected but no internet" Logs
+    </button>
+
+    <button id="exportDisconnectedLogsButton" class="export-button">
+      Export "Wi-Fi disconnected" Logs
+    </button>
+    <script src="renderer.js"></script>
+  </body>
+</html>
