@@ -6,6 +6,22 @@ Unfortunately, they moved to a new system, and as I write this, we are diagnosin
 
 This is an electron app. Feel free to build from source here, or find the current build below.
 
+To build from source:
+```bash
+# 1. Clone the repo
+git clone https://github.com/elliottmejia/Emeji-Connection-Monitor
+# 2. Install deps
+npm i
+# 3. Build
+npm build
+```
+Optionally, you can just run from source.
+```bash
+# ... steps 1, 2...
+# 3.
+npm start
+```
+
 Untested on Linux and Windows.
 
 ## Builds
