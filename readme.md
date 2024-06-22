@@ -1,5 +1,8 @@
 # Emeji Connection Monitor
 
+<img width="799" alt="screenshot" src="https://github.com/elliottmejia/Emeji-Connection-Monitor/assets/8883736/4fda0dd2-49b0-4bdd-9afe-77df745b711e">
+
+
 A simple utility I created to log internet connectivity issues, as my ISP is struggling to pin down why my internet speeds resemble a square wave somewhere between the switch and my twice-replaced router. 
 
 This utility monitors three states:
