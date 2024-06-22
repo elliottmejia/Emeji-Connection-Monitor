@@ -2,7 +2,7 @@
     "name": "emeji-connection-monitor",
     "version": "1.0.0",
     "description": "An app to monitor internet connection",
-    "main": "main.js",
+    "main": "src/main.js",
     "scripts": {
         "start": "electron .",
         "build": "electron-builder"
@@ -20,11 +20,7 @@
             "buildResources": "build"
         },
         "files": [
-            "main.js",
-            "index.html",
-            "renderer.js",
-            "preload.js",
-            "styles.css",
+            "src/*",
             "node_modules/**/*"
         ],
         "mac": {
