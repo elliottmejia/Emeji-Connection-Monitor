@@ -26,6 +26,9 @@ body {
 .offline {
   color: red;
 }
+.hidden {
+  display: none;
+}
 
 canvas {
   margin-top: 20px;
@@ -37,4 +40,12 @@ canvas {
 }
 .export-button {
   margin-top: 10px;
+}
+
+#dev-mode-display {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: purple;
+  opacity: 50%;
 }

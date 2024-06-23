@@ -6,6 +6,7 @@
 A simple utility I created to log internet connectivity issues, as my ISP is struggling to pin down why my internet speeds resemble a square wave somewhere between the switch and my twice-replaced router. 
 
 This utility monitors three states:
+
 1. Internet fully works.
 2. Machine is connected to the router, but not the information superhighway.
 3. Machine is not connected to the router or the information superhighway.
@@ -15,6 +16,7 @@ The utility can export logs of these states.
 Since my speeds are pretty much boolean, monitoring speed over time is out of scope. Like the Sith, this monitor deals in absolutes.
 
 To build from source:
+
 ```bash
 # 1. Clone the repo
 git clone https://github.com/elliottmejia/Emeji-Connection-Monitor
